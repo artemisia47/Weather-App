@@ -83,6 +83,7 @@ button:hover {
     align-items: center;
     margin-right: 10px;
     color: white;
+    margin-bottom: 15px;
 }
 
 .hourly-item img {
