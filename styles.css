@@ -61,10 +61,9 @@ button:hover {
 }
 
 #weather-icon {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 10px;
-    margin-bottom: 0;
+    width: 50%;
+    height: 50%;
+    margin: 20px auto; 
     display: none;
 }
 

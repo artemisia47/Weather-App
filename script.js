@@ -60,7 +60,7 @@ function displayWeather(data) {
     const temperature = Math.round(data.currentConditions.temp); 
     const description = data.currentConditions.conditions;
     const iconKeyword = data.currentConditions.icon;
-    const iconUrl = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/PNG/3rd%20Set%20-%20Color/${iconKeyword}.png`;
+    const iconUrl = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/SVG/3rd%20Set%20-%20Color/${iconKeyword}.svg`;
 
     const temperatureHtml = `<p>${temperature}°C</p>`;
 
@@ -93,7 +93,7 @@ function displayHourlyForecast(hourlyData) {
         const formattedHour = dateTime.getHours();
         const temperature = Math.round(hour.temp); 
         const iconKeyword = hour.icon;
-        const iconUrl = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/PNG/3rd%20Set%20-%20Color/${iconKeyword}.png`;
+        const iconUrl = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/58c79610addf3d4d91471abbb95b05e96fb43019/SVG/3rd%20Set%20-%20Color/${iconKeyword}.svg`;
 
         const hourlyItemHtml = `
             <div class="hourly-item">
